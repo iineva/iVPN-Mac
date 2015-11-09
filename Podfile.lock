@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (3.1.2)
+  - AlamofireImage (2.1.0):
+    - Alamofire (~> 3.1)
+  - JSONModel (1.1.2)
+  - MCSMKeychainItem (1.1)
+  - SSObject (1.4.4)
+  - SwiftyJSON (2.3.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - JSONModel
+  - MCSMKeychainItem
+  - SSObject
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7c16ca65f3c7e681fd925fd7f2dec7747ff96855
+  AlamofireImage: 97e00995920d85b5cb23ee4c3b7f92605f5dc74b
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  MCSMKeychainItem: d02cf96b1cc19b01e815bda1cfacf9e3de8229fa
+  SSObject: b0ca2da20f0a1526db7e2199ac91cd0eed977391
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+
+COCOAPODS: 0.38.2

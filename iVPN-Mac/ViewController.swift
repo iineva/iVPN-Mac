@@ -7,13 +7,25 @@
 //
 
 import Cocoa
+//import Alamofire
+import SwiftyJSON
 
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+//        $.login {
+//            
+//            info -> Void in
+//            
+//            let server = info?.servergroup?.first
+//            
+//            print(server)
+//            print(info)
+//            
+//        }
     }
 
     override var representedObject: AnyObject? {
@@ -21,7 +33,4 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
-
 }
-
