@@ -61,6 +61,8 @@ class ServerListVC: NSViewController, NSTableViewDelegate, NSTableViewDataSource
     
     func tableView(tableView: NSTableView, shouldSelectRow row: Int) -> Bool {
         
+        return false
+        
         // 点击连接VPN
         if let info = loginInfo?.servergroup?[row] {
             

@@ -46,7 +46,6 @@ class $ {
             let data = fileHandle2.readDataToEndOfFile
             
             UUIDStore = String(data: data(), encoding: NSUTF8StringEncoding)?.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-            print(UUIDStore)
         }
         
         return UUIDStore ?? "Unkonw UUID";
